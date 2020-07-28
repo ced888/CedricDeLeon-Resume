@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Michaella's trip</h1>
+
 
 <script>
     function getVote(int) {
@@ -14,10 +14,12 @@
       xmlhttp.send();
     }
     </script>
+<div id="poll">
+<h1>Michaella's trip</h1>
 <form>
     Overnight: <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
     Daytrip: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
 </form>
-
+</div>
 </body>
 </html>
