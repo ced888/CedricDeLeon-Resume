@@ -2,17 +2,14 @@
 <?php
     echo "this is php"
 ?>
-<form action = "/vote.php">
+<form action = "/vote.php">value="Overnight"
     <input type="radio" name="trip"
     <?php if (isset($trip) && $trip=="Overnight") echo "checked";?>
-    value="Overnight">Overnight
+    Overnight
     
-    <input type="radio" name="trip"
+    <input type="radio" name="trip" value="Daytrip"
     <?php if (isset($trip) && $trip=="Daytrip") echo "checked";?>
-    value="Daytrip">Daytrip
-    
-    <input type="radio" name="trip"
-    <?php if (isset($trip) && $trip=="other") echo "checked";?>
+    Daytrip
     
     <input type="submit" value="submit">
 </form>
