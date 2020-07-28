@@ -29,13 +29,13 @@ fclose($fp);
 <tr>
 <td>Overnight:</td>
 <td>
-<?php echo($yes); ?>
+<?php echo(strval($yes)); ?>
 </td>
 </tr>
 <tr>
-<td>Daytrip:</td>
+<td>Daytrip1:</td>
 <td>
-<?php echo($no); ?>
+<?php echo(strval($no)); ?>
 </td>
 </tr>
 </table>
