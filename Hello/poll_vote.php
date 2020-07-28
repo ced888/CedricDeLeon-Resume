@@ -29,7 +29,7 @@ fclose($fp);
 <tr>
 <td>Overnight1:<?php echo(strval($yes)); ?>
 <script>
-    console.log($yes);
+    console.log("this many voted overnight:" + $yes);
 </script>
 </td>
 </tr>
