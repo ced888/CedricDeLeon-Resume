@@ -2,7 +2,8 @@
 <?php
     echo "this is php"
 ?>
-<form action = "/vote.php">value="Overnight"
+<form action = "/vote.php">
+    <input type ="textbox" name="name">
     <input type="radio" name="trip"
     <?php if (isset($trip) && $trip=="Overnight") echo "checked";?>
     Overnight
