@@ -27,13 +27,13 @@ fclose($fp);
 <h2>Result:</h2>
 <table>
 <tr>
-<td>Yes:</td>
+<td>Overnight:</td>
 <td>
 <?php echo($yes); ?>%
 </td>
 </tr>
 <tr>
-<td>No:</td>
+<td>Daytrip:</td>
 <td>
 <?php echo($no); ?>%
 </td>
