@@ -27,15 +27,9 @@ fclose($fp);
 <h2>Result:</h2>
 <table>
 <tr>
-<td>Overnight:</td>
-<td>
-<?php echo(strval($yes)); ?>
-</td>
+<td>Overnight1:<?php echo(strval($yes)); ?></td>
 </tr>
 <tr>
-<td>Daytrip1:</td>
-<td>
-<?php echo(strval($no)); ?>
-</td>
+<td>Daytrip1:<?php echo(strval($no)); ?></td>
 </tr>
 </table>
