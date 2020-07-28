@@ -28,18 +28,14 @@ fclose($fp);
 <table>
 <tr>
 <td>Yes:</td>
-<td><img src="blue.jpg"
-width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
-height='20'>
-<?php echo(100*round($yes/($no+$yes),2)); ?>%
+<td>
+<?php echo($yes); ?>%
 </td>
 </tr>
 <tr>
 <td>No:</td>
-<td><img src="blue.jpg"
-width='<?php echo(100*round($no/($no+$yes),2)); ?>'
-height='20'>
-<?php echo(100*round($no/($no+$yes),2)); ?>%
+<td>
+<?php echo($no); ?>%
 </td>
 </tr>
 </table>
