@@ -1,6 +1,6 @@
 <?php
 $vote = $_REQUEST['vote'];
-
+chmod("poll_result.txt",0755);
 //get content of textfile
 $filename = "poll_result.txt";
 $content = file($filename);
